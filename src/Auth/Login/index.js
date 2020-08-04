@@ -16,13 +16,12 @@ const Login = () => {
     console.log('----->',toggle);
 
     return (
-        <div className="login"
-            
+        <div className="login"            
         >
 
             <img src={WncLogo} alt="React Logo" className="wnc-logo" />
             <animated.div style={myprops}>This is main route</animated.div>
-
+Энэ бол шинэ нэвтрэх цонх
             <button onClick={() => setToggle(!toggle)}>click me</button>
 </div>
      
